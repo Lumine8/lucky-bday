@@ -23,7 +23,7 @@ function lucky(){
     
     var dobnum = parseInt(dob1)
     console.log(dobnum)
-    if(number1%dobnum==0){
+    if(number1%dobnum===0){
         message.innerText="Your birthday is lucky!!"
     }
     else{
